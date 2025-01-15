@@ -47,7 +47,7 @@ Bu dizin yapısı, modelin veri akışını kolayca sağlayabilmesi için öneml
 
 ---
 
-**Sonuçlar ve Çıktılar**  
+## **Sonuçlar ve Çıktılar**  
 - Model, veri kümesindeki hayvan yüzlerini yüksek doğrulukla sınıflandırmayı başarmıştır.  
 - Eğitim ve doğrulama sonuçları grafiklerle analiz edilmiştir.  
 - Örnek tahminler, modelin sınıflandırma başarısını görselleştirmek için sunulmuştur.  
