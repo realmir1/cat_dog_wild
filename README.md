@@ -6,6 +6,13 @@ Bu proje, hayvan yüzlerini sınıflandırmak için evrişimli sinir ağı (CNN)
 
 ---
 
+
+### **Geliştirildiği Ortamlar**
+- Visual Studio Code
+- Kaggle
+
+
+
 ### **Projenin Amacı**  
 Bu proje, hayvan yüzlerini otomatik olarak tanıyabilen ve sınıflandırabilen bir model geliştirmeyi hedeflemektedir. Model, aşağıdaki sınıflarda sınıflandırma yapmaktadır:  
 - **Kedi (cat)** 🐈   
