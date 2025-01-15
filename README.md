@@ -41,21 +41,21 @@ Bu dizin yapısı, modelin veri akışını kolayca sağlayabilmesi için öneml
   <img src="https://cdn.dribbble.com/users/668001/screenshots/3861883/data-graphic-animation.gif" alt="Example GIF" height="300", width="400">
 </p>
 
-3. **Modelin Eğitilmesi**  
+ **Modelin Eğitilmesi**  
    Model, 10 epoch boyunca `adam` optimizasyon algoritması kullanılarak eğitilmiştir. Kategorik çapraz entropi kaybı (`categorical_crossentropy`) kullanılmış ve doğruluk (`accuracy`) metriği takip edilmiştir.
 
 <p align="center">
   <img src="https://static.wixstatic.com/media/0046d0_40f27fb5dc434ffa8e86ec0bb1444c1b~mv2.gif" alt="Example GIF" height="300", width="400">
 </p>
 
-4. **Performans Analizi**  
+ **Performans Analizi**  
    Eğitim sırasında elde edilen doğruluk ve doğrulama verileri matplotlib kullanılarak grafiklerle görselleştirilmiştir. Bu sayede modelin performansı detaylı bir şekilde analiz edilmiştir.
 
 <p align="center">
   <img src="https://i.pinimg.com/originals/39/9d/50/399d509c00b8cbfe0c7ddffb3b40a705.gif" alt="Example GIF" height="300", width="400">
 </p>
 
-5. **Tahmin ve Görselleştirme**  
+ **Tahmin ve Görselleştirme**  
    Model, doğrulama setinden rastgele 10 görüntü için tahminlerde bulunmuştur. Bu tahminler, gerçek etiketlerle karşılaştırılmış ve görüntüler üzerinde görselleştirilmiştir.  
 
 <p align="center">
