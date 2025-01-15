@@ -145,7 +145,9 @@ Bu proje, hayvan sınıflandırmasının ötesinde şu gibi uygulama alanlarına
 - Görüntü tabanlı hayvan davranışı analizleri  
 - Hayvanların popülasyonlarını otomatik takip sistemleri  
 
----
+## **Teşekkürler**
+
+Okuduğunuz için teşekkür ederim. 
 
 
 
