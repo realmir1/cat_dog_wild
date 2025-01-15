@@ -72,8 +72,10 @@ Bu dizin yapısı, modelin veri akışını kolayca sağlayabilmesi için öneml
 - Eğitim ve doğrulama sonuçları grafiklerle analiz edilmiştir.  
 - Örnek tahminler, modelin sınıflandırma başarısını görselleştirmek için sunulmuştur.  
 
-<p align="center"> <img sr</p>
+<p align="center"> <img src="https://github.com/realmir1/cat_dog_wild/blob/main/Ekran%20Resmi%202025-01-15%2017.00.09.png?raw=true" width="500", height="400"</p>
+<p align="center"> <img src="https://github.com/realmir1/cat_dog_wild/blob/main/Ekran%20Resmi%202025-01-14%2019.56.55.png?raw=true" width="600", height="100"</p>
 
+ 
 ## **Nasıl Çalıştırılır?**  
 1. Proje dosyalarını indirin ve aşağıdaki adımları takip edin:  
    - Veri kümesini `/kaggle/input/animal-faces/afhq/train` dizinine yerleştirin.  
