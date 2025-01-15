@@ -1,19 +1,21 @@
 
 
-##  Hayvan Yüzlerini Sınıflandıran Yapay Sinir Ağı 
+# Hayvan Yüzlerini Sınıflandıran Yapay Sinir Ağı 
 
 Bu proje, hayvan yüzlerini sınıflandırmak için evrişimli sinir ağı (CNN) modelini kullanan bir görüntü işleme uygulamasıdır. Model, kedi, köpek ve vahşi hayvan kategorilerinde sınıflandırma yapmaktadır. TensorFlow ve Keras kütüphaneleri kullanılarak geliştirilmiştir ve verilerin işlenmesinden modelin eğitilmesine kadar tüm adımları içermektedir.
 
 ---
 
 
-### **Geliştirildiği Ortamlar**
+## **Geliştirildiği Ortamlar**
 - Visual Studio Code
 - Kaggle
+<p align ="center">  <img src="https://opendatascience.com/wp-content/uploads/2018/12/kaggle.png" ,width= "500", height="300"</p>
 
 
 
-### **Projenin Amacı**  
+
+## **Projenin Amacı**  
 Bu proje, hayvan yüzlerini otomatik olarak tanıyabilen ve sınıflandırabilen bir model geliştirmeyi hedeflemektedir. Model, aşağıdaki sınıflarda sınıflandırma yapmaktadır:  
 - **Kedi (cat)** 🐈   
 - **Köpek (dog)**  🐕
@@ -21,9 +23,9 @@ Bu proje, hayvan yüzlerini otomatik olarak tanıyabilen ve sınıflandırabilen
 
 Bu tür bir sınıflandırma modeli, örneğin hayvan davranışlarını analiz etmek, doğada hayvan popülasyonlarını izlemek veya benzer görüntü işleme projelerinde kullanılabilir.
 
----
 
-### **Veri Kümesi Hakkında**  
+
+## **Veri Kümesi Hakkında**  
 Proje, hayvan yüzlerini içeren bir veri kümesi kullanmaktadır. Veri kümesi, her bir hayvan kategorisi için ayrı klasörlere sahip olacak şekilde organize edilmiştir. Verilerin organize edilmesi şu şekildedir:  
 
 ```
@@ -41,37 +43,37 @@ Bu dizin yapısı, modelin veri akışını kolayca sağlayabilmesi için öneml
   <img src="https://cdn.dribbble.com/users/668001/screenshots/3861883/data-graphic-animation.gif" alt="Example GIF" height="300", width="400">
 </p>
 
- **Modelin Eğitilmesi**  
+ ## **Modelin Eğitilmesi**  
    Model, 10 epoch boyunca `adam` optimizasyon algoritması kullanılarak eğitilmiştir. Kategorik çapraz entropi kaybı (`categorical_crossentropy`) kullanılmış ve doğruluk (`accuracy`) metriği takip edilmiştir.
 
 <p align="center">
   <img src="https://static.wixstatic.com/media/0046d0_40f27fb5dc434ffa8e86ec0bb1444c1b~mv2.gif" alt="Example GIF" height="300", width="400">
 </p>
 
- **Performans Analizi**  
+ ## **Performans Analizi**  
    Eğitim sırasında elde edilen doğruluk ve doğrulama verileri matplotlib kullanılarak grafiklerle görselleştirilmiştir. Bu sayede modelin performansı detaylı bir şekilde analiz edilmiştir.
 
 <p align="center">
   <img src="https://i.pinimg.com/originals/39/9d/50/399d509c00b8cbfe0c7ddffb3b40a705.gif" alt="Example GIF" height="300", width="400">
 </p>
 
- **Tahmin ve Görselleştirme**  
+ ## **Tahmin ve Görselleştirme**  
    Model, doğrulama setinden rastgele 10 görüntü için tahminlerde bulunmuştur. Bu tahminler, gerçek etiketlerle karşılaştırılmış ve görüntüler üzerinde görselleştirilmiştir.  
 
 <p align="center">
   <img src="https://miro.medium.com/v2/resize:fit:2400/1*36MELEhgZsPFuzlZvObnxA.gif" alt="Example GIF" height="300", width="400">
 </p>
 
----
+
 
 ## **Sonuçlar ve Çıktılar**  
 - Model, veri kümesindeki hayvan yüzlerini yüksek doğrulukla sınıflandırmayı başarmıştır.  
 - Eğitim ve doğrulama sonuçları grafiklerle analiz edilmiştir.  
 - Örnek tahminler, modelin sınıflandırma başarısını görselleştirmek için sunulmuştur.  
 
----
 
-**Nasıl Çalıştırılır?**  
+
+## **Nasıl Çalıştırılır?**  
 1. Proje dosyalarını indirin ve aşağıdaki adımları takip edin:  
    - Veri kümesini `/kaggle/input/animal-faces/afhq/train` dizinine yerleştirin.  
    - Python ortamınızı gerekli kütüphanelerle kurulum yapacak şekilde hazırlayın.  
