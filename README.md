@@ -77,6 +77,16 @@ Bu dizin yapısı, modelin veri akışını kolayca sağlayabilmesi için öneml
 
 ---
 
+**Kütüphanelerin Kullanıldığı Yerler**
+
+| Kütüphaneler       | Kullanım Alanı       |
+|--------------------|----------------------|
+| TensorFlow         | Derin Öğrenme        |
+| Keras              | Derin Öğrenme        |
+| Matlpotlib         | Grafik İşleme        |
+| Numpy              | İşleme               | 
+
+
 ## Keras <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Keras_logo.svg/1200px-Keras_logo.svg.png" width="35" align="left">
 
 Keras, derin öğrenme (deep learning) uygulamaları geliştirmek için kullanılan açık kaynaklı bir Python kütüphanesidir. Başlangıçta Theano ve TensorFlow gibi arka uç kütüphanelerine dayanarak çalışıyordu, ancak günümüzde TensorFlow'un yüksek seviyeli API'si olarak entegre edilmiştir. Keras, kullanıcı dostu ve modüler bir yapıya sahip olup, hızlı prototipleme, eğitim ve derin öğrenme modellerinin geliştirilmesi için idealdir.
@@ -111,6 +121,8 @@ Bu proje, hayvan sınıflandırmasının ötesinde şu gibi uygulama alanlarına
 - Hayvanların popülasyonlarını otomatik takip sistemleri  
 
 ---
+
+
 
 
 
